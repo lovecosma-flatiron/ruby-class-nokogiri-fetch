@@ -1,7 +1,6 @@
 class CLI
 
     def initialize
-        Api.new("https://newsapi.org/v2/everything?q=Apple&from=2021-07-02&sortBy=popularity&apiKey=4ff03f7b46ab4c12ac105fd65f151355").parse_json
-        binding.pry
+        Api.new("https://developer.nps.gov/api/v1/topics/parks?id=28AEAE85-9DDA-45B6-981B-1CFCDCC61E14&id=&api_key=VocVsC82hxN0rPyD0Qgjw2RHT6QSaQaxoNeWsBfm").parse_json
     end 
 end 
